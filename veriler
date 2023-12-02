@@ -1,91 +1,83 @@
-<?xml version="1.0" encoding="1.0" ?>
-<albümler>
-    <albüm>
+<?xml version ="1.0"?>
+<albumler>
+    <album1>
         <dctitle>Starboy</dctitle>
         <dcDate>2016</dcDate>
         <dcAuthor>the weekend</dcAuthor>
         <dclanguage>eng</dclanguage>
         <dciçerik>True colors,Attention, All ı now</dciçerik>
         <dcAlbümKapağı>img/starboy.png</dcAlbümKapağı>
-    </albüm>
-        <albüm1>
+    </album1>
+        <albüm2>
            <dcisim>Adımı kalbine yaz</dcisim>
         <dcYayınYılı>2010</dcYayınYılı>
-        <dcsanatçı>tarkan</dcsanatçı>
+        <dcAuthor>tarkan</dcAuthor>
         <dclanguage>türkçe</dclanguage>
-        <dciçerik>kayıt,işim olmaz,sevdanın son vuruşu </dciçerik>
-        <dcAlbümKapağı>img/tarkan.png</dcAlbümKapağı>
-        </albüm1>
-    <albüm2>
-        <dcisim>22</dcisim>
-        <dcYayınYılı>2022</dcYayınYılı>
-        <dcsanatçı>motive</dcsanatçı>
-        <dclanguage>türkçe</dclanguage>
-        <dciçerik>masal,külü kaldı,kala kal </dciçerik>
-        <dcAlbümKapağı>img/motive.jpg</dcAlbümKapağı>
-    </albüm2>
+        <dcicerik>kayıt,işim olmaz,sevdanın son vuruşu </dcicerik>
+        <dcKapak>img/tarkan.png</dcKapak>
+        </albüm2>
     <albüm3>
         <dcisim>22</dcisim>
-        <dcYayınYılı>2019</dcYayınYılı>
-        <dcsanatçı>coldplay</dcsanatçı>
-        <dclanguage>eng</dclanguage>
-        <dciçerik>sunrise,old friends,broken </dciçerik>
-        <dcAlbümKapağı>img/coldplay.jpg</dcAlbümKapağı>
+        <dcYayınYılı>2022</dcYayınYılı>
+        <dcAuthor>motive</dcAuthor>
+        <dclanguage>türkçe</dclanguage>
+        <dcicerik>masal,külü kaldı,kala kal </dcicerik>
+        <dcKapak>img/motive.jpg</dcKapak>
     </albüm3>
     <albüm4>
-        <dcisim>aşk kaç beden giyer</dcisim>
-        <dcYayınYılı>2011</dcYayınYılı>
-        <dcsanatçı>hadise</dcsanatçı>
-        <dclanguage>tr</dclanguage>
-        <dciçerik>burjuva,melek,superman </dciçerik>
-        <dcAlbümKapağı>HADİSE.jpeg</dcAlbümKapağı>
+        <dcisim>22</dcisim>
+        <dcYayınYılı>2019</dcYayınYılı>
+        <dcAuthor>coldplay</dcAuthor>
+        <dclanguage>eng</dclanguage>
+        <dcicerik>sunrise,old friends,broken </dcicerik>
+        <dcKapak>img/coldplay.jpg</dcKapak>
     </albüm4>
     <albüm5>
-        <dcisim>dursun zaman</dcisim>
-        <dcYayınYılı>2004</dcYayınYılı>
-        <dcsanatçı>manga</dcsanatçı>
+        <dcisim>aşk kaç beden giyer</dcisim>
+        <dcYayınYılı>2011</dcYayınYılı>
+        <dcAuthor>hadise</dcAuthor>
         <dclanguage>tr</dclanguage>
-        <dciçerik>açılış,raptiye rap rap, bitti rüya</dciçerik>
-        <dcAlbümKapağı>manga.jpeg</dcAlbümKapağı>
+        <dcicerik>burjuva,melek,superman </dcicerik>
+        <dcKapak>HADİSE.jpeg</dcKapak>
     </albüm5>
-    <albüm6>
+    <album6>
         <dcisim>dursun zaman</dcisim>
         <dcYayınYılı>2004</dcYayınYılı>
-        <dcsanatçı>manga</dcsanatçı>
+        <dcAuthor>manga</dcAuthor>
         <dclanguage>tr</dclanguage>
-        <dciçerik>açılış,raptiye rap rap, bitti rüya</dciçerik>
-        <dcAlbümKapağı>manga.jpeg</dcAlbümKapağı>
-    </albüm6>
-    <albüm7>
+        <dcicerik>açılış,raptiye rap rap, bitti rüya</dcicerik>
+        <dcKapak>manga.jpeg</dcKapak>
+    </album6>
+    <album7>
         <dcisim>merhaba gençler</dcisim>
         <dcYayınYılı>1987</dcYayınYılı>
-        <dcsanatçı>cem karaca</dcsanatçı>
+        <dcAuthor>cem karaca</dcAuthor>
         <dclanguage>tr</dclanguage>
-        <dciçerik>peynir gemisi,canım benim, ceviz ağacı</dciçerik>
-        <dcAlbümKapağı>cem.jpeg</dcAlbümKapağı>
-    </albüm7>
-    <albüm8>
+        <dcicerik>peynir gemisi,canım benim, ceviz ağacı</dcicerik>
+        <dcKapak>cem.jpeg</dcKapak>
+    </album7>
+    <album8>
         <dctitle>Graduation</dctitle>
         <dcDate>2007</dcDate>
         <dcAuthor>kanye west</dcAuthor>
         <dclanguage>eng</dclanguage>
-        <dciçerik>good morning ,stronger, good life</dciçerik>
-        <dcAlbümKapağı>kanye.jpeg</dcAlbümKapağı>
-    </albüm8>
-    <albüm9>
+        <dcicerik>good morning ,stronger, good life</dcicerik>
+        <dcKapak>kanye.jpeg</dcKapak>
+    </album8>
+    <album9>
         <dctitle>Sistemik</dctitle>
         <dcDate>2020</dcDate>
         <dcAuthor>son feci bisiklet</dcAuthor>
         <dclanguage>tr</dclanguage>
-        <dciçerik>istasyon,torna,uyku</dciçerik>
-        <dcAlbümKapağı>sistemik.jpeg</dcAlbümKapağı>
-    </albüm9>
-     <albüm10>
+        <dcicerik>istasyon,torna,uyku</dcicerik>
+        <dcKapak>sistemik.jpeg</dcKapak>
+    </album9>
+     <album10>
         <dctitle>Teo</dctitle>
         <dcDate>2003</dcDate>
         <dcAuthor>teoman</dcAuthor>
         <dclanguage>tr</dclanguage>
-        <dciçerik>rapsodi istanbul,mektup,kıskançlık</dciçerik>
-        <dcAlbümKapağı>teoman.jpeg</dcAlbümKapağı>
-    </albüm10>
-</albümler>
+        <dcicerik>rapsodi istanbul,mektup,kıskançlık</dcicerik>
+        <dcKapak>teoman.jpeg</dcKapak>
+    </album10>
+</albumler>
