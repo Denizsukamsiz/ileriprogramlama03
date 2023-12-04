@@ -1,0 +1,94 @@
+<?xml version ="1.0"?>
+<eserler>
+    <eser>
+        <dcTitle>Gece Yarısı Kütüphanesi</dcTitle>
+        <dcSubject>fantastik kurgu</dcSubject>
+        <dcCreator>Matt Haig</dcCreator>
+        <dcDescription> pişmanlıklar, keşkeler ve olasılıklar üzerine uzun ve büyülü bir yolculuk</dcDescription>
+        <dcLanguage>TR</dcLanguage>
+        <dcIdentifier>https://www.idefix.com/gece-yarisi-kutuphanesi-p-303644?vendorId=3</dcIdentifier>
+        <dcImage>image\Gece yarısı kütüphanesi.jpeg</dcImage>
+    </eser>
+    <eser>
+        <dcTitle>Sakar</dcTitle>
+        <dcSubject>Aile</dcSubject>
+        <dcCreator>Alexandre Seurat</dcCreator>
+        <dcDescription>aile kurumuna sorgusuz sualsiz kutsallık atfedilmesinin yıkıcı sonuçlarını anlatmaktadır.</dcDescription>
+        <dcLanguage>TR</dcLanguage>
+        <dcIdentifier>https://www.idefix.com/imzali-sakar-p-374583?vendorId=3</dcIdentifier>
+        <dcImage>image\sakar.jpeg</dcImage>
+    </eser>
+    <eser>
+        <dcTitle>Kitapları Kurtaran Kedi </dcTitle>
+        <dcSubject>Macera</dcSubject>
+        <dcCreator>Sosuke Natsukawa</dcCreator>
+        <dcDescription>insanların mutlu bir hayata gülümseyebileceklerini anlatmaktadır. </dcDescription>
+        <dcLanguage>TR</dcLanguage>
+        <dcIdentifier>https://www.idefix.com/kitaplari-kurtaran-kedi-p-288763?vendorId=3</dcIdentifier>
+        <dcImage>image\Kitapları Kurtaran Kedi.jpeg</dcImage>
+    </eser>
+    <eser>
+        <dcTitle>Biçimin ve Boşluğun Kitabı</dcTitle>
+        <dcSubject>edebiyat</dcSubject>
+        <dcCreator>Ruth Ozeki</dcCreator>
+        <dcDescription>kitapların ve okumanın gücünü anlatmaktadır.</dcDescription>
+        <dcLanguage>TR</dcLanguage>
+        <dcIdentifier>https://www.idefix.com/bicimin-ve-boslugun-kitabi-p-364070?vendorId=3</dcIdentifier>
+        <dcImage>image\Biçimin ve Boşluğun Kitabı.jpeg</dcImage>
+    </eser>
+    <eser>
+        <dcTitle>Kızların Suskunluğu</dcTitle>
+        <dcSubject>Savaş</dcSubject>
+        <dcCreator>Pat Barker</dcCreator>
+        <dcDescription> savaşı ve ardında bıraktıklarını anlatmaktadır.</dcDescription>
+        <dcLanguage>TR</dcLanguage>
+        <dcIdentifier>https://www.idefix.com/kizlarin-suskunlugu-p-280546?vendorId=3</dcIdentifier>
+        <dcImage>image\Kızların Suskunluğu.jpeg</dcImage>
+    </eser>
+    <eser>
+        <dcTitle>Harry Potter Büyü Kitabı</dcTitle>
+        <dcSubject>Büyü</dcSubject>
+        <dcCreator>Kolektif</dcCreator>
+        <dcDescription>Harry Potter filmlerini izledikten sonra büyüye dair merak ettiğiniz ne varsa Harry Potter Büyü Kitabı'ndan bilgisine erişebilirsiniz.</dcDescription>
+        <dcLanguage>TR</dcLanguage>
+        <dcIdentifier>https://www.idefix.com/hac-p-207296?vendorId=3</dcIdentifier>
+        <dcImage>image\Harry Potter Büyü Kitabı.jpeg</dcImage>
+    </eser>
+    <eser>
+        <dcTitle>Bir yaz boyunca</dcTitle>
+        <dcSubject>Aşk</dcSubject>
+        <dcCreator>Tessa Bailey</dcCreator>
+        <dcDescription>Piper hem üvey babasına hem de bu kasabalılara, güzel bir surattan daha fazlasına sahip olduğunu kanıtlamaya karar verir.</dcDescription>
+        <dcLanguage>TR</dcLanguage>
+        <dcIdentifier>https://www.idefix.com/bir-yaz-boyunca-p-334914?vendorId=3</dcIdentifier>
+        <dcImage>image\Bir yaz boyunca.jpeg</dcImage>
+    </eser>
+    <eser>
+        <dcTitle>Siren Kraliçesinin Kızı</dcTitle>
+        <dcSubject>Büyücülük</dcSubject>
+        <dcCreator>Tricia Levenseller</dcCreator>
+        <dcDescription> Bir babanın kızına ve yeteneklerine muhtaç olması anlatılmaktadır.</dcDescription>
+        <dcLanguage>TR</dcLanguage>
+        <dcIdentifier>https://www.idefix.com/siren-kralicesinin-kizi-p-336247?vendorId=3</dcIdentifier>
+        <dcImage>image\Siren Kraliçesinin Kızı.jpeg</dcImage>
+    </eser>
+    <eser>
+        <dcTitle>Karanlığın Dokunuşu</dcTitle>
+        <dcSubject>Aşk</dcSubject>
+        <dcCreator>Scarlett St. Clair</dcCreator>
+        <dcDescription>Hades’le tanışmasının ardından, Persephone kendini Ölüler Tanrısı ile bir anlaşmanın içinde bulur ve bu anlaşmanın şartları imkânsızlaşır.</dcDescription>
+        <dcLanguage>TR</dcLanguage>
+        <dcIdentifier>https://www.idefix.com/karanligin-dokunusu-p-374944?vendorId=3</dcIdentifier>
+        <dcImage>image\Karanlığın Dokunuşu.jpeg</dcImage>
+    </eser>
+    <eser>
+        <dcTitle>Açlık Oyunları 3</dcTitle>
+        <dcSubject>Korku</dcSubject>
+        <dcCreator>Suzanne Collins</dcCreator>
+        <dcContributor>Taylan Taftaf</dcContributor>
+        <dcDescription>Katniss Everdeen kız kardeşinin yerine gönüllü olarak Açlık Oyunları'na katılır. Kız kardeşi için hayatta kalma mücadelesi verecektir.</dcDescription>
+        <dcLanguage>TR</dcLanguage>
+        <dcIdentifier>https://www.idefix.com/aclik-oyunlari-3-alayci-kus-p-342940?vendorId=3</dcIdentifier>
+        <dcImage>image\Açlık Oyunları 3.jpeg</dcImage>
+    </eser>
+</eserler>
