@@ -1,0 +1,105 @@
+import os
+import tkinter as tk
+from xml.etree import ElementTree as ET
+from PIL import Image, ImageTk
+
+class BookApp:
+    def __init__(self, root):
+        self.root = root
+        self.root.title("Kitap Listesi")
+
+        # Kitap verilerini saklamak için bir liste
+        self.books = self.parse_xml("veri.xml")
+
+        # Başlık
+        self.label = tk.Label(root, text="KÜTÜPHANE", font=("Helvetica", 15))
+        self.label.pack(pady=20)
+
+        # Liste kutusu
+        self.listbox = tk.Listbox(root)
+        for book in self.books:
+            self.listbox.insert(tk.END, book["dcTitle"])
+        self.listbox.pack(pady=20)
+
+        # Detay gösterme butonu
+        self.show_button = tk.Button(root, text="Detayları Göster", command=self.show_details)
+        self.show_button.pack(pady=5)
+
+        # Çıkış butonu
+        self.exit_button = tk.Button(root, text="Çıkış", command=root.destroy)
+        self.exit_button.pack(pady=5)
+
+
+    def parse_xml(self, file_path):
+        books = []
+        tree = ET.parse(file_path)
+        root = tree.getroot()
+        for book_elem in root.findall("eser"):
+            book = {}
+            for child_elem in book_elem:
+                if child_elem.tag == "dcImage":
+
+                    #image_filename = f"{book_elem.find('dcTitle').text.lower().replace(' ', '_')}.jpg"
+                    image_filename = f"{book_elem.find('dcImage').text}"
+                    #book[child_elem.tag] = os.path.join("image", image_filename)
+                    book[child_elem.tag] = image_filename
+                else:
+                    book[child_elem.tag] = child_elem.text
+            books.append(book)
+        return books
+
+    def show_details(self):
+        selected_index = self.listbox.curselection()
+        if selected_index:
+            selected_index = selected_index[0]
+            selected_book = self.books[selected_index]
+
+            # Detay penceresi
+            detail_window = tk.Toplevel(self.root)
+            detail_window.title(selected_book["dcTitle"])
+
+            #detaylar
+            detail_label = tk.Label(detail_window, text=f"{selected_book['dcTitle']} - {selected_book['dcCreator']}")
+            detail_label.pack(pady=10)
+
+            #açıklama
+            description_label = tk.Label(detail_window, text=selected_book['dcDescription'], wraplength=400,
+                                         justify="left")
+            description_label.pack(pady=10)
+
+            # Diğer bilgiler
+            subject_label = tk.Label(detail_window, text=f"Subject: {selected_book['dcSubject']}")
+            subject_label.pack(pady=7)
+
+            creator_label = tk.Label(detail_window, text=f"Creator: {selected_book['dcCreator']}")
+            creator_label.pack(pady=7)
+
+            language_label = tk.Label(detail_window, text=f"Language: {selected_book['dcLanguage']}")
+            language_label.pack(pady=10)
+
+            identifier_label = tk.Label(detail_window, text=f"Identifier: {selected_book['dcIdentifier']}")
+            identifier_label.pack(pady=5)
+
+            # Kitap görseli
+            '''
+            image_path = 'dcImage'
+            image_file = Image.open(image_path)
+            image_resized = image_file.resize((150, 200), image.ANTIALIAS)
+            image_tk = imageTk.PhotoImage(image_resized)
+            '''
+            print(selected_book['dcImage'])
+            image_file = ImageTk.PhotoImage(Image.open(selected_book['dcImage']))
+            image_frame = tk.Label(detail_window, image=image_file)
+            image_frame.image = image_file
+            image_frame.pack(pady=5)
+
+            '''
+            image_label = tk.Label(detail_window, image=image_tk)
+            image_label.image = image_tk
+            image_label.pack(pady=10)
+            '''
+
+# Ana uygulama penceresini oluştur
+root = tk.Tk()
+app = BookApp(root)
+root.mainloop()
